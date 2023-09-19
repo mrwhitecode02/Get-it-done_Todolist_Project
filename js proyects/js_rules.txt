@@ -1,0 +1,20 @@
+I will use this projects to create parts of Code and the general rules are:
+
+1- Apply five leassons inside the same projects.
+2- Be very creative.
+3- Take my time to learn and do it very quick or as musch as I can.
+4- Try to do everything in English to practice.
+
+Start the Notes place:
+------------------------------
+
+First Section of code:
+
+Leassons:
+
+1- Number Methods ()
+2- Number Properties ()
+3- Arrays ()
+4- Sort Arrays ()
+5- Array Iteration () 
+
