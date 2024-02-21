@@ -1,0 +1,11 @@
+/*
+First element in HTML
+*/
+
+.lol {
+    color: black;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
