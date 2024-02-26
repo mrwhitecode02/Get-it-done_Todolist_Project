@@ -1,0 +1,43 @@
+To-Do List Application with Python and Django: Getting Started
+
+Workflow:
+
+- Define user stories: Break down the project into smaller tasks with clear goals and acceptance criteria.
+
+- Iterative development: Work on features incrementally, testing thoroughly after each step.
+
+- Version control: Use Git to track changes and revert if needed.
+
+- Deployment: Consider deploying your app to a web server like Heroku or AWS for public access.
+
+Development Tools:
+
+Text Editor/IDE: Choose a comfortable editor like Visual Studio Code, PyCharm, or Sublime Text.
+
+Version Control System: Use Git for version control and collaboration.
+
+Testing Framework: Use Django's built-in testing framework or libraries like pytest for unit and integration testing.
+
+Code Linting: Use tools like Pylint or Flake8 to enforce code style and identify potential issues.
+
+Deployment Tools: Use tools like Heroku CLI or AWS CLI for easier deployment.
+
+Additional Tips:
+
+Research existing To-Do list applications for inspiration and features.
+Prioritize essential features first and add more complex ones later.
+Keep your code clean, readable, and well-commented.
+Don't hesitate to seek help from Django communities and online resources.
+
+MVP definition:
+
+Basic Features
+
+1- Create activities with basic features (date, description, color, emoji or symbol)
+
+2- create favorite list of activities 
+
+3- Have a clasification of the to do things (doing, done, to do...)
+
+4- Create alarms
+
