@@ -1,0 +1,88 @@
+Django installation Steps
+
+1- verify python and pip (package manager of python) version = python --version, pip --version
+
+2- configurate the evn delvelop
+
+commands:
+
+- Windows (powershell): py -m venv nameOfProject
+
+- Mac / IOS (bash) = python -m venv nameOfProject
+
+3- Activate the environment
+
+commands:
+
+- Windows (powershell): nameOfProject/bin/activate.bat
+
+- Mac / IOS (bash): source nameOfProject/bin/activate
+
+4- Install Django (needs to be activate to Install Django)
+
+commands:
+
+- Windows (powershell): py -m pip install Django
+
+- Mac / IOS (bash): python -m pip install Django
+
+5- Check out the Django version
+
+commands:
+
+django-admin --version
+
+6- To create a project 
+
+commands:
+
+django-admin startproject name_of_project
+
+7- To run the project
+
+commands:
+
+py || python manage.py runserver
+
+8- Create an app 
+
+commands:
+
+python manage.py startapp nameOFApp
+
+9- migrate command
+
+commands:
+
+python manage.py migrate
+
+10- migrate to the databse SQLite
+
+commands:
+
+python manage.py makemgrations nameoffieldefinedinmodels.py
+
+
+# Steps to create datbase using Django and SQLite
+
+1- Go to models.py file inside the application
+
+2- defined the fields of the table that you need 
+
+4- type the next command: py or python manage.py makemgrations name_of_the_table
+
+5- type the next command: py or python manage.py migrate
+
+6- check out the migration inside migrate folder 
+
+7- to view the sql table, type the next command: 
+py or python manage.py sqlmigrate name_of_the_table 0001 (can be different number)
+
+
+Add records to the table
+
+1- type the next command: python manage.py shell (python interpretor)
+
+2- type the next command after the >>>: from app_name.models import name_of_the_table
+
+3- 

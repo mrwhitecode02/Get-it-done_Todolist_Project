@@ -1,2 +1,2 @@
-# Javascript-Project-mrwhitecode
-just practice javascript
+# Get It Done Todo List
+
